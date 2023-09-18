@@ -1,0 +1,32 @@
+.cartarticle{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-radius: 7px;
+    border-color: transparent;
+    border-width: 10px;
+    box-shadow: 3px 3px 3px 3px;
+    transition: 1000ms;
+
+    &:hover{
+        transform: scale(1.03);
+    }
+
+    img {
+        height: 190px;
+        height: 190px;
+    }
+
+    .deletebtn{
+        width: 40px;
+        height: 40px;
+        color: red;
+        cursor: pointer;
+    }
+}
+

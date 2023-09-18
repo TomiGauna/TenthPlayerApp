@@ -1,0 +1,87 @@
+ .detailcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.maincontainers{
+    margin: 40px;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.detailcontainer img{
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 7px;
+    transition: 1000ms;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+}
+
+.detailcontainer h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.detailcontainer h6{
+    font-size:x-large;
+}
+
+.detailcontainer p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.detailcontainer .form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    input {
+        width: 30px;
+        height: 30px;
+        cursor:default;
+    }
+
+    button{
+        width: 20px;
+        height: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: chartreuse;
+        color: aliceblue;
+        border-radius: 5px;
+        box-shadow: 0 0 5px;
+
+        &:hover{
+            background-color: darkgreen;
+        }
+    }
+
+}
+
+.detailcontainer .buybtn{
+    width: 150px;
+    height: 40px;
+    background-color: chartreuse;
+    color: white;
+    margin-top: 10px;
+    border-radius: 4px;
+
+        &:hover{
+            background-color: darkgreen;
+        }
+}

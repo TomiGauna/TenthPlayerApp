@@ -1,0 +1,48 @@
+.emptycart{
+    color: darkgray;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        color: darkgrey;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.bottompart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+
+    .clearbtn{
+        border-radius: 5px;
+        color: white;
+        background-color: chartreuse;
+        width: 140px;
+        height: 50px;
+
+            &:hover{
+                background-color: darkgreen;
+            }
+    }
+
+    .buybtn{
+        border-radius: 5px;
+        color: white;
+        background-color: chartreuse;
+        width: 140px;
+        height: 50px;
+
+            &:hover{
+                background-color: darkgreen;
+            }
+    }
+}

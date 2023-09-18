@@ -1,0 +1,45 @@
+.navbarcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: greenyellow;
+    height: 80px;
+    align-items: center;
+    border-radius: 6px;
+    position: sticky;
+    top: 0;
+
+        .menu{
+            color:darkgreen;
+
+            &:hover {
+                background-color:darkgrey;
+            }
+        }
+
+}
+
+.brandicon{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    color: orangered;
+}
+
+a{
+    text-decoration-line: none;
+    margin-top: 20px;
+}
+
+
+.brandname{
+    font-weight:900;
+    font-size:xx-large;
+    color: darkred;
+}
+
+p {
+   display: flex;
+   flex-direction: row;
+   align-items: center; 
+}

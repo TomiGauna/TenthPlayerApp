@@ -1,0 +1,78 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+    .form  {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+
+        h5{
+            display: flex;
+            justify-content: center;
+        }
+    
+        .textfield1 {
+            margin: 20px;
+            width: 800px;
+        }
+
+        .textfield2 {
+            margin: 20px;
+            width: 800px;
+        }
+
+        .textfield3 {
+            margin: 20px;
+            width: 800px;
+        }
+
+        .textfield4 {
+            margin: 20px;
+            width: 800px;
+        }
+
+        .textfield5 {
+            margin: 20px;
+            width: 800px;
+        }
+    }
+
+    .checkoutitems{
+        margin-top: 35px;
+        margin-bottom: 20px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: darkgray;
+
+        h5{
+            display: flex;
+            justify-content: center;
+            text-decoration: underline;
+            margin-top: 10px;
+        }
+
+        .bottom{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-bottom: 20px;
+
+            p{
+                text-decoration: underline;
+            }
+
+            button{
+                border-radius: 5px;
+                color: white;
+                background-color: chartreuse;
+                width: 160px;
+
+                &:hover{
+                    background-color: darkgreen;
+                }
+            }
+        }
+    }
+
+}
